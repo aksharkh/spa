@@ -1,4 +1,3 @@
-import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
@@ -11,7 +10,7 @@ function App() {
     <Layout>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/philosophy" element={<Philosophy />} />
+        <Route path="/philosophy" element={<Philosostahy />} />
         <Route path="/treatments" element={<Treatments />} />
         <Route path="/bookings" element={<Bookings />} />
       </Routes>
